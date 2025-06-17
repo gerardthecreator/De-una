@@ -1,0 +1,18 @@
+/* mathjax.css: Estilos adicionales para MathJax (opcional, MathJax ya es muy bueno) */
+
+/* Ajustes de tamaño y color para las ecuaciones */
+.MathJax_Display {
+    margin: 1em 0;
+    color: var(--text-color-dark);
+}
+
+.mjx-chtml {
+    font-size: 1.1em !important;
+    /* Asegura que las ecuaciones sean legibles */
+    color: var(--text-color-dark) !important;
+}
+
+/* Alineación de ecuaciones en línea */
+p .mjx-chtml {
+    vertical-align: middle;
+}
